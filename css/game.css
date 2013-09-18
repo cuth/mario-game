@@ -1,0 +1,20 @@
+.MarioGame {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	cursor: pointer;
+}
+	.MarioGame img {
+		display: block;
+	}
+	.MarioGame .shelf {
+		position: relative;
+		display: block;
+		height: 33%;
+		width: 100%;
+		overflow: hidden;
+		background-repeat: repeat-x;
+	}
+		.MarioGame .middleShelf {
+			height: 34%;
+		}
